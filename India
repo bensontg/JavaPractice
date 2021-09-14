@@ -1,0 +1,20 @@
+public class India
+{
+static String capital="New delhi";
+int age;
+float height;
+boolean nri;
+String fatherName;
+
+public static void main(String[] args)
+{
+India citizen=new India();
+citizen.citizenName="Ben";
+System.out.println(citizen.fatherName);
+System.out.println(citizen.age);
+System.out.println(citizen.height);
+System.out.println(citizen.nri);
+System.out.println(citizen.capital);
+
+}
+}
