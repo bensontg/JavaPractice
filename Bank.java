@@ -7,6 +7,7 @@ public class Bank
 		cashier.deposit("muthu");
 		cashier.deposit("500.5");
 		cashier.deposit(true);
+		cashier.deposit();
 	}
 void deposit(int box)
 	{
